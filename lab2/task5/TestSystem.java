@@ -6,8 +6,10 @@ public class TestSystem {
 
         Person john = new Employee("John",30,"Engineer");
         Person alice = new PhDStudent("Alice",26,"CS","AI");
+        Animal rex = new Dog("Rex", 2);
 
         Animal cat = new Cat("Murka",5);
+        alice.assignPet(rex);
 
         john.assignPet(cat);
 

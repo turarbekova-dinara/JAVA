@@ -17,6 +17,11 @@ public class SavingsAccount extends Account {
     }
 
     @Override
+    public void update(){
+        addInterest();
+    }
+
+    @Override
     public String toString(){
         return "Savings " + super.toString();
     }

@@ -31,6 +31,9 @@ public class Account {
         other.deposit(amount);
     }
 
+    public void update(){
+    }
+
     @Override
     public String toString(){
         return "Account #" + accNumber + " Balance: " + balance;

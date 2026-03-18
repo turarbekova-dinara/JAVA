@@ -8,10 +8,15 @@ public class ShapeTest {
         Sphere s = new Sphere(4);
         Cube cube = new Cube(2);
 
-        System.out.println(c.volume());
-        System.out.println(s.volume());
-        System.out.println(cube.volume());
+        System.out.println("V = " + c.volume());
+        System.out.println("V = " + s.volume());
+        System.out.println("V = " + cube.volume());
 
+        System.out.println();
+
+        System.out.println("SA = " + c.surfaceArea());
+        System.out.println("SA = " + s.surfaceArea());
+        System.out.println("SA = " + cube.surfaceArea());
     }
 
 }

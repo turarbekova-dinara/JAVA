@@ -39,6 +39,11 @@ public class CheckingAccount extends Account {
     }
 
     @Override
+    public void update(){
+        deductFee();
+    }
+
+    @Override
     public String toString(){
         return "Checking " + super.toString();
     }
